@@ -1,4 +1,5 @@
-﻿using System;
+﻿using StebraDesign2016MVC.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -36,9 +37,20 @@ namespace StebraDesign2016MVC.Controllers
 
         public ActionResult News()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Latest News.";
 
-            return View();
+            //list to hold Archived News
+            List<StebraEntity> news = new List<StebraEntity>();
+
+            //Get news from AzureTable
+            news = AzureManager.LoadNews();
+
+            //sort list descend by Dateprop
+            news = SortByDateManager.LatestFirst(news);
+
+            return View(news);
+
+            return View(news);
         }
 
         public ActionResult NewsOne()
