@@ -1,6 +1,38 @@
-﻿@{
+﻿@model List<StebraDesign2016MVC.Models.StebraEntity>
+
+@{
     ViewBag.Title = "News";
 }
+
+
+
+
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="container-fluid">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <div class="col-lg-12">
+                        <h2>@item.Title</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <!-- Temporary jQuery solution to minify all img tags is located in App.js -->
+                        <p>@Html.Raw(item.Body)</p>
+
+                        <p>@Html.ActionLink("Link to Article", "Nyheter", new { id = UrlManager.MakeURLFriendly(@item.Title) })</p>
+                        <p><i>@item.Date @Html.Raw(item.Article)</i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
 
 <div class="container-fluid">
 
