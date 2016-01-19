@@ -1,0 +1,59 @@
+﻿body {
+    padding-top: 50px;
+    background-image: url('../Images/Background/stebra_bg.jpg');
+    background-size:cover;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+#navImg {
+    height:35px;
+    margin-top:-8px;
+}
+
+.fill {
+    width: 100%;
+    min-height: 400px !important;
+    background-position: center;
+    background-size: cover;
+}
+
+.myLiPadding {
+    padding-left:15px;
+}
+
+.myBottom {
+    position:absolute;
+    bottom:0;
+}
+
+.panel-primary {
+    border:none;
+}
+
+.panel-primary > .panel-heading {
+    background-color: #900000 ;
+    border-color:#900000  !important;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+}
