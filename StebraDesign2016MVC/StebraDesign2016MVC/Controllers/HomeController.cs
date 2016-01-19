@@ -8,7 +8,7 @@ namespace StebraDesign2016MVC.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index()
+        public ActionResult Index() //example comment
         {
             return View();
         }
