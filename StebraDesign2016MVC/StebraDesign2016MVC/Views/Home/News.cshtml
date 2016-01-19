@@ -1,0 +1,87 @@
+﻿@{
+    ViewBag.Title = "News";
+}
+
+<div class="container-fluid">
+
+    @*--------------------------- News Panel ---------------------------*@
+    <div class="panel panel-primary">
+
+        @*--------------------------- Panel Head ---------------------------*@
+        <div class="panel-heading">
+            <h4>Nyheter</h4>
+        </div>
+
+        @*--------------------------- Panel Body ---------------------------*@
+        <div class="panel-body">
+
+            @*--------------------------- News 1 ---------------------------*@
+            <div class="row">
+                <div class="col-sm-2 col-xs-12">
+                    <a href="#" class="thumbnail">
+                        <img src="http://blog.room34.com/wp-content/uploads/underdog/logo.thumbnail.png" alt="...">
+                    </a>
+                </div>
+
+                <div class="col-sm-7 col-xs-12">
+                    <h2>Test News One!</h2>
+                    <p>
+                        <b>
+                            Here is the first test news for this design, it's used to test the layout of the text and if it works as intended.
+                        </b>
+                    </p>
+                </div>
+                <div class="col-sm-3 col-sm-offset-9 col-xs-12">
+                    <p class="pull-right">@Html.ActionLink("Read More", "NewsOne", "Home") <span class="glyphicon glyphicon-chevron-right"></span></p>
+                </div>
+            </div>
+
+            <hr />
+
+            @*--------------------------- News 2 ---------------------------*@
+            <div class="row">
+                <div class="col-sm-2 col-xs-12">
+                    <a href="#" class="thumbnail">
+                        <img src="http://blog.room34.com/wp-content/uploads/underdog/logo.thumbnail.png" alt="...">
+                    </a>
+                </div>
+                <div class="col-sm-7 col-xs-12">
+                    <h2>Test News Two</h2>
+                    <p>
+                        <b>
+                            Here is the second test news for this design, it's used to test the text alignment. here comes som random text = Ought these are balls place mrs their times add she. Taken no great widow spoke of it small. Genius use except son esteem merely her limits. Sons park by do make on. It do oh cottage offered cottage in written. Especially of dissimilar up attachment themselves by interested boisterous. Linen mrs seems men table. Jennings dashwood to quitting marriage bachelor in. On as conviction in of appearance apartments boisterous.
+                        </b>
+                    </p>
+                </div>
+
+                <div class="col-sm-3 col-sm-offset-9 col-xs-12">
+                    <p class="pull-right">@Html.ActionLink("Read More", "NewsTwo", "Home") <span class="glyphicon glyphicon-chevron-right"></span></p>
+                </div>
+            </div>
+
+            <hr />
+
+            @*--------------------------- News 3 ---------------------------*@
+            <div class="row">
+                <div class="col-sm-2 col-xs-12">
+                    <a href="#" class="thumbnail">
+                        <img src="http://blog.room34.com/wp-content/uploads/underdog/logo.thumbnail.png" alt="...">
+                    </a>
+                </div>
+
+                <div class="col-sm-7 col-xs-12">
+                    <h2>Test News Three</h2>
+                    <p>
+                        <b>
+                            Here is the third test news for this design just for population purpose. Perhaps far exposed age effects. Now distrusts you her delivered applauded affection out sincerity. As tolerably recommend shameless unfeeling he objection consisted. She although cheerful perceive screened throwing met not eat distance. Viewing hastily or written dearest elderly up weather it as. So direction so sweetness or extremity at daughters. Provided put unpacked now but bringing. Its had resolving otherwise she contented therefore. Afford relied warmth out sir hearts sister use garden. Men day warmth formed admire former simple. Humanity declared vicinity continue supplied no an. He hastened am no property exercise of. Dissimilar comparison no terminated devonshire no literature on. Say most yet head room such just easy.
+                        </b>
+                    </p>
+                </div>
+
+                <div class="col-sm-3 col-sm-offset-9 col-xs-12">
+                    <p class="pull-right">@Html.ActionLink("Read More", "NewsThree", "Home") <span class="glyphicon glyphicon-chevron-right"></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

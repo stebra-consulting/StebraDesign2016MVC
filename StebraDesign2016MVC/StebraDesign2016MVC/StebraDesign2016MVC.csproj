@@ -180,18 +180,45 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\Background\stebra_bg.jpg" />
+    <Content Include="Images\Employee\alle.jpg" />
+    <Content Include="Images\Employee\bertil.jpg" />
+    <Content Include="Images\Employee\felix.jpg" />
+    <Content Include="Images\Employee\hasselito.jpg" />
+    <Content Include="Images\Employee\matilda.jpg" />
+    <Content Include="Images\Employee\simon.jpg" />
+    <Content Include="Images\gauge2.png" />
+    <Content Include="Images\HomeScroll\bring.png" />
+    <Content Include="Images\HomeScroll\info.png" />
+    <Content Include="Images\HomeScroll\samarbeta.png" />
+    <Content Include="Images\HomeScroll\sok.png" />
+    <Content Include="Images\HomeScroll\till.png" />
+    <Content Include="Images\Logo\stebra_logo_black.png" />
+    <Content Include="Images\Logo\stebra_logo_white_notagline.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="Properties\PublishProfiles\stebra.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\jquery-2.1.4.min.map" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <None Include="Scripts\jquery-2.1.4.intellisense.js" />
+    <Content Include="Scripts\jquery-2.1.4.js" />
+    <Content Include="Scripts\jquery-2.1.4.min.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
@@ -234,6 +261,10 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Home\News.cshtml" />
+    <Content Include="Views\Home\NewsOne.cshtml" />
+    <Content Include="Views\Home\NewsThree.cshtml" />
+    <Content Include="Views\Home\NewsTwo.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
