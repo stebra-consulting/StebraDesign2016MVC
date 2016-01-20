@@ -11,7 +11,16 @@ namespace StebraDesign2016MVC.Controllers
     {
         public ActionResult Index() //example comment
         {
-            return View();
+            //list to hold Archived News
+            List<StebraEntity> news = new List<StebraEntity>();
+
+            //Get news from AzureTable
+            news = AzureManager.LoadNews();
+
+            //sort list descend by Dateprop
+            news = SortByDateManager.LatestFirst(news);
+
+            return View(news);
         }
 
         public ActionResult About()
@@ -47,8 +56,6 @@ namespace StebraDesign2016MVC.Controllers
 
             //sort list descend by Dateprop
             news = SortByDateManager.LatestFirst(news);
-
-            return View(news);
 
             return View(news);
         }
