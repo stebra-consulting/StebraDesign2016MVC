@@ -22,7 +22,8 @@
                         <!-- Temporary jQuery solution to minify all img tags is located in App.js -->
                         <p>@Html.Raw(Model.First().Body)</p>
 
-                        <p>@Html.ActionLink("Link to Article", "Nyheter", new { id = UrlManager.MakeURLFriendly(@Model.First().Title) })</p>
+                        <p>@*Html.ActionLink("Link to Article", "Nyheter", new { id = UrlManager.MakeURLFriendly(@Model.First().Title) })*@</p>
+                        <a href="http://newsflashon.azurewebsites.net/Home/Nyheter/look-at-this-splendid-office">Link to Article (hårdkodad)</a>
                         <p><i>@Model.First().Date @Html.Raw(Model.First().Article)</i></p>
                     </div>
                 </div>
