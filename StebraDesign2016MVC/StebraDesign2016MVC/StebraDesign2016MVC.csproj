@@ -237,6 +237,8 @@
     <Content Include="Images\HomeScroll\till.png" />
     <Content Include="Images\Logo\stebra_logo_black.png" />
     <Content Include="Images\Logo\stebra_logo_white_notagline.png" />
+    <Content Include="Images\office4.jpg" />
+    <Content Include="Scripts\App.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Content\bootstrap-theme.css.map" />
